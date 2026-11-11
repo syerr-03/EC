@@ -187,9 +187,9 @@ co_r = st.slider(
 
 mut_r = st.slider(
     "Mutation Rate (MUT_R)",
-    min_value=0.0,
-    max_value=1.0,
-    value=0.2,
+    min_value=0.01,
+    max_value=0.20,
+    value=0.20,
     step=0.01
 )
 
